@@ -1,0 +1,10 @@
+.header {
+  /* border: 1px solid white; */
+  position: relative;
+  margin-left: 48px;
+  margin-top: 48px;
+  margin-bottom: 0;
+  /* display: block; */
+  width: 1184px;
+  height: 52px;
+}

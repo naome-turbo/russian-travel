@@ -1,0 +1,6 @@
+.cover__overlay {
+  position: relative;
+  background-image: url(../../images/cover-trains.jpg);
+  opacity: 0.3;
+  /* background: 1px solid red; */
+}
