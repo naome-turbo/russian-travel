@@ -7,4 +7,57 @@
   /* display: block; */
   width: 1184px;
   height: 52px;
+  background: red;
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .header {
+    /* border: 1px solid white; */
+    position: relative;
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 0;
+    /* display: block; */
+    width: 1184px;
+    height: 52px;
+    background: blue;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+    /* border: 1px solid white; */
+    position: relative;
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 0;
+    /* display: block; */
+    width: 1184px;
+    height: 52px;
+    background: yellow;
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 768px) {
+    .header {
+    /* border: 1px solid white; */
+    position: relative;
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 0;
+    /* display: block; */
+    width: 1184px;
+    height: 52px;
+    background: green;
+  }
+}
+@media screen and (max-width: 465px) {
+    .header {
+    /* border: 1px solid white; */
+    position: relative;
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 0;
+    /* display: block; */
+    width: 1184px;
+    height: 52px;
+    background: #2A2C2F;
+  }
 }
