@@ -1,0 +1,19 @@
+.lang-link__En {
+  width: 29px;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .lang-link__En {
+    margin: 0 48px 0 0;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .lang-link__En {
+    margin: 0 24px 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+    .lang-link__En {
+    width: 22px;
+    margin: 0 16px 0 0;
+  }
+}
