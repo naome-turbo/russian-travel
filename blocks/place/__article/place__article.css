@@ -1,0 +1,8 @@
+.place__article {
+  grid-area: article;
+}
+@media screen and (max-width: 768px) {
+    .place__article {
+      margin: 0 16px;
+    }
+}
