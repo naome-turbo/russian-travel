@@ -1,0 +1,22 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style-type: none;
+  font-family: 'Inter', Times;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation {
+      font-size: 24px;
+      line-height: 24px;
+      flex-direction: column;
+      min-height: 248px;
+  }
+}
