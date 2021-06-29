@@ -8,9 +8,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  z-index: 0;
+  z-index: 0;  
 }
-
 .cover__background::before {
   content: '';
   background: #2A2C2F;
@@ -19,13 +18,16 @@
   right: 0;
   bottom: 0;
   left: 0;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -webkit-transition: 0.4s;
   opacity: 0.3;
 }
-
 .cover__background:hover::before {
-  opacity: 0.7;
+  opacity: 0.8;
 }
-
 @media screen and (max-width: 1280px){
   .cover__background {
     margin: 0;

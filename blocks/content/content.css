@@ -2,22 +2,12 @@
   display: grid;
   flex-shrink: 0;
   grid-row-gap: 92px;
-  margin: 56px 0 92px 0;
   font-family: 'Inter', 'Courier', 'Areal';
-}
-
-
-@media screen and (min-width: 1024px) {
-  .content {
-    grid-row-gap: 92px;
-    margin: 48px 0 92px 0;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   .content {
     grid-row-gap: 88px;
-    margin: 48px 0 88px 0;
   }
 }
 
@@ -25,6 +15,5 @@
 @media screen and (max-width: 768px) {
   .content {
     grid-row-gap: 64px;
-    margin: 48px 0 64px 0;
   }
 }
