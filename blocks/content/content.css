@@ -2,7 +2,6 @@
   display: grid;
   flex-shrink: 0;
   grid-row-gap: 92px;
-  font-family: 'Inter', 'Courier', 'Areal';
 }
 
 @media screen and (max-width: 1024px) {
