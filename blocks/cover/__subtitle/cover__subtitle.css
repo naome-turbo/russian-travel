@@ -3,8 +3,11 @@
   line-height: 122%;
   text-align: center;
   align-self: center;
+  font-weight: normal;
   max-width: 360px;
   color: #FFF;
+  margin: 16px 0 0;
+  z-index: 10;
 }
 
 @media screen and (max-width: 768px) {
@@ -12,5 +15,6 @@
       font-size: 14px;
       line-height: 114%;
       max-width: 288px;
+      margin: 8px 0 0;
     }
 }
