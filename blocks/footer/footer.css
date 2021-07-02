@@ -3,7 +3,7 @@
   max-width: calc(100% - 2*48px);
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter', 'Courier', 'Areal';
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
