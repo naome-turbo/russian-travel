@@ -15,12 +15,8 @@
       margin: 0 auto 56px auto;
   }
 }
-@media screen and (max-width: 1024px) {
-    .lead__subtitle {
-      margin: 0 auto 56px auto;
-  }
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
     .lead__subtitle {
       margin: 0 auto 40px auto;
       font-size: 16px;
