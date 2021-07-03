@@ -1,21 +1,21 @@
 .footer {
-  margin: 0 48px 24px 48px;
+  margin: 92px 48px 24px 48px;
   max-width: calc(100% - 2*48px);
   display: flex;
   justify-content: space-between;
   font-family: 'Inter', Arial, sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .footer {
-      margin: 0 24px 24px 24px;
+      margin: 88px 24px 24px 24px;
       max-width: calc(100% - 2*24px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .footer {
-      margin: 0 auto 24px 16px;
+      margin: 64px auto 24px 16px;
       flex-direction: column;
       min-height: 310px;
   }
